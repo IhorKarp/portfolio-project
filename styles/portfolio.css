@@ -1,8 +1,54 @@
-h1{
-    text-align: center;
-    font-family: 'Hachi Maru Pop', cursive;
-    
+
+body{
+    margin:0;
 }
-/*font-family: 'Hachi Maru Pop', cursive;
-font-family: 'Hi Melody', cursive;
-font-family: 'Rock Salt', cursive;*/
+.hero{
+    background-color: antiquewhite;
+    background-image: url(/images/study1.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    padding:400px 0 ;
+}
+.center{
+    background-color: antiquewhite;
+    background-image: url(/images/photo1.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    padding:0 0 270px 0;
+}
+h1{
+    font-family: 'Hachi Maru Pop', cursive;
+    color: rgb(255, 128, 1);
+    font-weight: 700;
+    font-size: 55px;
+    padding-left: 70px;
+}
+#link{
+    padding-left: 150px ;
+    color: rgb(247, 157, 22);
+    font-family: 'Hi Melody', cursive;
+    font-size: 45px;
+    text-decoration: none;  
+    padding-left: 550px;
+
+}
+
+h3{
+    padding-left: 150px ;
+    color: rgb(247, 157, 22);
+    font-family: 'Hi Melody', cursive;
+    font-size: 45px;
+
+}
+p{
+    font-family: 'Corinthia', cursive;
+    font-size: 28px;
+    padding: 220px 30px 0px 30px;
+    color: rgb(14, 14, 13);
+
+}
+img{
+    display: block;
+    margin: 0 auto;
+    margin-top: 230px;
+}

@@ -6,7 +6,7 @@ body{
     margin:0;
 }
 
-h1,h3,p{
+h1,h3,p ,#contact-me,#mail{
     font-family: 'Corinthia', cursive;
 }
 
@@ -33,13 +33,7 @@ p{
     background-color: rgba(255, 255, 255, 0.673);
 }
 
-img{
-    display: block;
-    margin: 0 auto;
-    margin-top: 100px;
-}
-
-.hero{
+.hero-homepage{
     background-color: antiquewhite;
     background-image: url(/images/study1.jpg);
     background-repeat:no-repeat;
@@ -49,7 +43,7 @@ img{
     background-attachment: fixed;
 }
 
-.center{
+.center-homepage{
     background-color: antiquewhite;
     background-image: url(/images/photo1.jpg);
     background-repeat:no-repeat;
@@ -59,20 +53,80 @@ img{
     background-attachment: fixed;
 }
 
+.hero-about-page{
+    background-color: antiquewhite;
+    background-image: url(/images/laptop.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    padding:400px 0 ;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.center-about-page{
+    background-color: antiquewhite;
+    background-image: url(/images/code.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    padding:270px 0;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.bottom-about-page{
+    background-color: antiquewhite;
+    background-image: url(/images/coding.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    padding:270px 0;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+
+
+#first,#second {
+    margin-top: 100px;
+}
+
 #link{
     font-size: 45px;
     text-decoration: none;  
     padding-left: 550px;
 }
 
+#img{
+    display: block;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+#about-me{
+    font-size: 70px;
+    text-align: center;
+    margin: 0;
+    padding:65px 0 50px 0;
+}
+
+#bottom{
+    background-color:whitesmoke;
+}
+
+#mail-link, #mail-link:hover{
+    text-decoration: none;
+    color: black;
+    font-size: 36px;
+}
+
 @media only screen and (max-width:767px){
     
-    .hero{
+    .hero-homepage{
         background-image: url(/images/study2.jpeg);
     }
 
-    .center{
+    .center-homepage{
         background-image: url(/images/photo2.jpg);
+        padding: 0 0 50px 0;
     }
 
     h1{
@@ -86,16 +140,27 @@ img{
     #link{
         padding-left: 300px;
     }
+    #first,#second {
+        margin: 0px;
+    }
+    #about-me{
+        margin: 0;
+        padding:20px 0 0 0;
+    }
+
 }
 
 @media (min-width:768px) and (max-width:1300px){
     
-    .center{
+    .center-homepage{
         background-image: url(/images/photo2.jpg);
+    }
+    #first,#second {
+        margin-top: 20px;
     }
 }
 
-@media (max-width:375px) {
+@media (max-width:376px) {
     
     h1{
         font-size: 50px;
@@ -104,4 +169,15 @@ img{
     h3{
         font-size: 40px;
     }
+   p{
+    margin-top: 40px;
+   }
+   #img{
+    margin-top: 40px;
+   }
+   .center-homepage{
+    padding-bottom: 80px;
+   }
+
+
 }

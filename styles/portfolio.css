@@ -58,7 +58,7 @@ p{
     background-image: url(/images/laptop.jpg);
     background-repeat:no-repeat;
     background-size: cover;
-    padding:400px 0 ;
+    padding:350px 0 ;
     background-position: center center;
     background-attachment: fixed;
 }
@@ -68,7 +68,7 @@ p{
     background-image: url(/images/code.jpg);
     background-repeat:no-repeat;
     background-size: cover;
-    padding:270px 0;
+    padding:100px 0;
     background-position: center center;
     background-attachment: fixed;
 }
@@ -78,7 +78,7 @@ p{
     background-image: url(/images/coding.jpg);
     background-repeat:no-repeat;
     background-size: cover;
-    padding:270px 0;
+    padding:100px 0;
     background-position: center center;
     background-attachment: fixed;
 }
@@ -116,6 +116,10 @@ p{
     text-decoration: none;
     color: black;
     font-size: 36px;
+}
+
+#launch-weather-app{
+    font-size: 24px;
 }
 
 @media only screen and (max-width:767px){
@@ -178,6 +182,10 @@ p{
    .center-homepage{
     padding-bottom: 80px;
    }
+}
 
-
+@media (max-width:1201px){
+    .center-about-page {
+        padding: 100px 0;
+    }
 }
